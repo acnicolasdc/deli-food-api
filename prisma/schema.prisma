@@ -1,0 +1,153 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+
+model Customer {
+  id               Int           @id @default(autoincrement())
+  name             String
+  image            String
+  waitingTime      String
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @default(now()) @updatedAt
+  review           Review?
+  amenities        Amenity[]
+  categories       Category[]
+  promotions       Promotion[]
+  headquarters     Headquarter[]
+  openingHours     OpeningHour[]
+  serviceTypes     ServiceType[]
+  productTypes     ProductType[]
+  paymentMethods   PaymentMethod[]
+  tag              Tag? @relation(fields: [tagId], references: [id])
+  tagId            Int?
+}
+
+model Review {
+  id                       Int    @id @default(autoincrement())
+  title                    String
+  description              String
+  reviewRecomendations     ReviewRecomendation[]
+  customer                 Customer @relation(fields: [customerId], references: [id])
+  customerId               Int @unique
+}
+
+model ReviewRecomendation {
+  id               Int    @id @default(autoincrement())
+  name             String
+  description      String?
+  review           Review @relation(fields: [reviewId], references: [id])
+  reviewId         Int @unique
+  serviceType      ServiceType @relation(fields: [serviceTypeId], references: [id])
+  serviceTypeId    Int @unique
+}
+
+model ServiceType {
+  id                     Int    @id @default(autoincrement())
+  name                   String
+  icon                   String
+  customers              Customer[]
+  serviceBudget          ServiceBudget?
+  reviewRecomendation    ReviewRecomendation?
+}
+
+model ServiceBudget {
+  id             Int    @id @default(autoincrement())
+  name           String
+  icon           String
+  serviceType    ServiceType @relation(fields: [serviceTypeId], references: [id])
+  serviceTypeId  Int  @unique
+}
+
+model Category {
+  id         Int    @id @default(autoincrement())
+  name       String
+  icon       String
+  customers  Customer[]
+}
+
+model ProductType {
+  id         Int    @id @default(autoincrement())
+  name       String
+  icon       String
+  customers  Customer[]
+}
+
+model Amenity {
+  id         Int    @id @default(autoincrement())
+  name       String
+  icon       String
+  customers  Customer[]
+}
+
+model PaymentMethod {
+  id         Int    @id @default(autoincrement())
+  name       String
+  icon       String
+  customers  Customer[]
+}
+
+model Tag {
+  id         Int    @id @default(autoincrement())
+  name       String
+  icon       String
+  customers  Customer[]
+}
+
+model Promotion {
+  id           Int    @id @default(autoincrement())
+  name         String
+  image        String
+  active       Boolean
+  dueTime      Int
+  customer     Customer @relation(fields: [customerId], references: [id])
+  customerId   Int
+}
+
+model OpeningHour {
+  id           Int    @id @default(autoincrement())
+  label        String
+  range        String
+  customer     Customer @relation(fields: [customerId], references: [id])
+  customerId   Int
+}
+
+model Headquarter {
+  id           Int    @id @default(autoincrement())
+  name         String
+  address      String
+  customer     Customer @relation(fields: [customerId], references: [id])
+  customerId   Int
+  zone         Zone @relation(fields: [zoneId], references: [id])
+  zoneId       Int
+}
+
+model Zone {
+  id            Int    @id @default(autoincrement())
+  name          String
+  address       String
+  headquarters  Headquarter[]
+  city          City @relation(fields: [cityId], references: [id])
+  cityId        Int
+}
+
+model City {
+  id            Int    @id @default(autoincrement())
+  name          String
+  zones         Zone[]
+}
+
+
+

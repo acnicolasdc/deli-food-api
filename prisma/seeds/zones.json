@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "San Fernando",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzAxLnBuZyIsImlhdCI6MTcyNzA0MzE1MSwiZXhwIjo0ODQ5MTA3MTUxfQ.cqvqWOrFf7s9S-2hYOgBEh-c0YFM_R8WYdZ6yQQOR7w&t=2024-09-22T22%3A12%3A31.968Z"
+    },
+    {
+        "id": 2,
+        "name": "Ciudad Jardin",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_02.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzAyLnBuZyIsImlhdCI6MTcyNzA0MzE3MSwiZXhwIjo0ODQ5MTA3MTcxfQ.0BcvjlCQAm3COoDevknd7ylykMXkE6FqvZrpbsZ4d70&t=2024-09-22T22%3A12%3A51.438Z"
+    },
+    {
+        "id": 3,
+        "name": "La Flora",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_03.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzAzLnBuZyIsImlhdCI6MTcyNzA0MzE5MywiZXhwIjo0ODQ5MTA3MTkzfQ.xWICsSwHJ5DqfuFbXt80tbTc2SLp-roehOUGSxnq9PM&t=2024-09-22T22%3A13%3A13.823Z"
+    },
+    {
+        "id": 4,
+        "name": "Granada",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_04.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzA0LnBuZyIsImlhdCI6MTcyNzA0MzIxNCwiZXhwIjo0ODQ5MTA3MjE0fQ.KyiQANnrJkb-4k83-CEGrektzo8Ij7a3oQ3CydHREmw&t=2024-09-22T22%3A13%3A34.295Z"
+    },
+    {
+        "id": 5,
+        "name": "San Antonio",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_05.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzA1LnBuZyIsImlhdCI6MTcyNzA0MzIzMSwiZXhwIjo0ODQ5MTA3MjMxfQ.5pP8_Z3USjSHlVILA1qSkV5t5yc2wr9E58sk_gohy5w&t=2024-09-22T22%3A13%3A51.078Z"
+    },
+    {
+        "id": 6,
+        "name": "Peñon",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_06.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzA2LnBuZyIsImlhdCI6MTcyNzA0MzI1MiwiZXhwIjo0ODQ5MTA3MjUyfQ.ZYMp8BH7PeLLmlNDMZfg0gWe7CZexi3mA4h1ILVMBP0&t=2024-09-22T22%3A14%3A12.596Z"
+    },
+    {
+        "id": 7,
+        "name": "Ingenio",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_07.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzA3LnBuZyIsImlhdCI6MTcyNzA0MzI3MiwiZXhwIjo0ODQ5MTA3MjcyfQ.P-pFAOEhOiDSz4WQjneV3QTzy4eNJJBKvKQwhjOnIm4&t=2024-09-22T22%3A14%3A32.254Z"
+    },
+    {
+        "id": 8,
+        "name": "Bochalema",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_08.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzA4LnBuZyIsImlhdCI6MTcyNzA0MzMxNCwiZXhwIjo0ODQ5MTA3MzE0fQ.9Z815ycsloKXiGfI_WbXz_1pR8wo4QTr7D1GBptdm04&t=2024-09-22T22%3A15%3A14.551Z"
+    },
+    {
+        "id": 9,
+        "name": "Pance",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_09.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzA5LnBuZyIsImlhdCI6MTcyNzA0MzMzNiwiZXhwIjo0ODQ5MTA3MzM2fQ.OIH7dBZAIXpQeBm4pEPIuM3i14qx6aCjjshfA4sFRAg&t=2024-09-22T22%3A15%3A36.565Z"
+    },
+    {
+        "id": 10,
+        "name": "Jamundi",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_10.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzEwLnBuZyIsImlhdCI6MTcyNzA0MzM1NSwiZXhwIjo0ODQ5MTA3MzU1fQ.bgvLjKHPIge2jThjrOs_nqqdngrXBkavtNNXRmyXO24&t=2024-09-22T22%3A15%3A56.177Z"
+    },
+    {
+        "id": 11,
+        "name": "Dapa",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_11.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzExLnBuZyIsImlhdCI6MTcyNzA0MzM3NSwiZXhwIjo0ODQ5MTA3Mzc1fQ.BSykrOS-8VEANQy0Ob3_0AocBa5IXJBzRltVnsBh_Qc&t=2024-09-22T22%3A16%3A15.797Z"
+    },
+    {
+        "id": 12,
+        "name": "KM 18",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_12.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzEyLnBuZyIsImlhdCI6MTcyNzA0MzM5NiwiZXhwIjo0ODQ5MTA3Mzk2fQ.HSChANefszBIoa7FdIPhsC2SzlP2Pk7zdNHE2vwOwyw&t=2024-09-22T22%3A16%3A36.959Z"
+    },
+    {
+        "id": 13,
+        "name": "Afueras",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_13.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzEzLnBuZyIsImlhdCI6MTcyNzA0MzQxNywiZXhwIjo0ODQ5MTA3NDE3fQ.kI0eG010rBYuMH7hZN55t7DxNnERcYbd7bE5hjDDJMg&t=2024-09-22T22%3A16%3A57.480Z"
+    },
+    {
+        "id": 14,
+        "name": "Novena",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_14.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzE0LnBuZyIsImlhdCI6MTcyNzA0MzQzOCwiZXhwIjo0ODQ5MTA3NDM4fQ.OYQ5iXmEc6bJbain7E3p4HoQAG_v--R0SD7rkt3H_R4&t=2024-09-22T22%3A17%3A18.461Z"
+    }
+]

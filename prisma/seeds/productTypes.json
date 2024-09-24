@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Veggie",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDEucG5nIiwiaWF0IjoxNzI3MDQxNDY1LCJleHAiOjQ4NDkxMDU0NjV9.R8FpB2FY2z3eZbGYIQ4p1sh7WnlR8alpZZV3mHJi81U&t=2024-09-22T21%3A44%3A25.230Z"
+    },
+    {
+        "id": 2,
+        "name": "Internacional",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_02.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDIucG5nIiwiaWF0IjoxNzI3MDQxNDg3LCJleHAiOjQ4NDkxMDU0ODd9.eGrkifWjbHlaLP2K7HyYSVOBQXKAv28Uo0q27tgOI0w&t=2024-09-22T21%3A44%3A47.719Z"
+    },
+    {
+        "id": 3,
+        "name": "Asiatica",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_03.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDMucG5nIiwiaWF0IjoxNzI3MDQxNTA2LCJleHAiOjQ4NDkxMDU1MDZ9.E8kcqhu_NO6LDJdVzEv8hLnqesQB_u9IkL2LyUwyUGE&t=2024-09-22T21%3A45%3A06.590Z"
+    },
+    {
+        "id": 4,
+        "name": "Americana",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_04.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDQucG5nIiwiaWF0IjoxNzI3MDQxNTI2LCJleHAiOjQ4NDkxMDU1MjZ9.vtaMHxIoI_UeT-23n66lU6njJCK177Yu4RzQoSUrOKs&t=2024-09-22T21%3A45%3A26.490Z"
+    },
+    {
+        "id": 5,
+        "name": "Italiana",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_05.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDUucG5nIiwiaWF0IjoxNzI3MDQxNTQzLCJleHAiOjQ4NDkxMDU1NDN9.283UGSfUKqWxK2J2aj4o1_GA7dL0LxR8zilTVCNtcJ4&t=2024-09-22T21%3A45%3A43.804Z"
+    },
+    {
+        "id": 6,
+        "name": "Mexicana",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_06.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDYucG5nIiwiaWF0IjoxNzI3MDQxNTYyLCJleHAiOjQ4NDkxMDU1NjJ9.ef3VNKJHf67eriY9FDK7gNOVI-4fByB_GQPkfalD-po&t=2024-09-22T21%3A46%3A03.025Z"
+    },
+    {
+        "id": 7,
+        "name": "Francesa",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_07.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDcucG5nIiwiaWF0IjoxNzI3MDQxNTgyLCJleHAiOjQ4NDkxMDU1ODJ9.2EimsveowZI53-8ZVYY9JUM6NQvLAERrA-bqeqUHOhM&t=2024-09-22T21%3A46%3A22.626Z"
+    },
+    {
+        "id": 8,
+        "name": "Peruana",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_08.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDgucG5nIiwiaWF0IjoxNzI3MDQxNjA2LCJleHAiOjQ4NDkxMDU2MDZ9.zwjkluDRL9um6OLLbS_5Fyh-7qc9hcrQIhYU2bhMrJY&t=2024-09-22T21%3A46%3A46.544Z"
+    },
+    {
+        "id": 9,
+        "name": "Postres",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_09.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMDkucG5nIiwiaWF0IjoxNzI3MDQxNjI5LCJleHAiOjQ4NDkxMDU2Mjl9.OTo_BjLdHOhVEVHHMvo_KKbfJm4ReRlBMQVXrQe2I-c&t=2024-09-22T21%3A47%3A09.363Z"
+    },
+    {
+        "id": 10,
+        "name": "Cafe",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_10.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMTAucG5nIiwiaWF0IjoxNzI3MDQxNjQ4LCJleHAiOjQ4NDkxMDU2NDh9.Oy59aye5rkrIp3a8enVrpsGxK3rEwegal5IULMqA8mE&t=2024-09-22T21%3A47%3A28.392Z"
+    },
+    {
+        "id": 11,
+        "name": "Tipica",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_11.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMTEucG5nIiwiaWF0IjoxNzI3MDQxNjY2LCJleHAiOjQ4NDkxMDU2NjZ9.U-vbNvJGSFyoos2yP4h92_Jc8yCYuMY7yCv0Dc5MLRM&t=2024-09-22T21%3A47%3A46.863Z"
+    },
+    {
+        "id": 12,
+        "name": "Mariscos",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_12.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMTIucG5nIiwiaWF0IjoxNzI3MDQxNjgzLCJleHAiOjQ4NDkxMDU2ODN9.bMezKC-Q7CKY2ppmhzuAEiznqnc_govEZ7W_1RLukn8&t=2024-09-22T21%3A48%3A03.781Z"
+    },
+    {
+        "id": 13,
+        "name": "Parrilla",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_13.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMTMucG5nIiwiaWF0IjoxNzI3MDQxNjk4LCJleHAiOjQ4NDkxMDU2OTh9.ez7Fjb_GPPsB1PVCIxS_9hGOQQnN0QKyE0SY2ZmuO4A&t=2024-09-22T21%3A48%3A18.298Z"
+    },
+    {
+        "id": 14,
+        "name": "Arabe",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_14.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMTQucG5nIiwiaWF0IjoxNzI3MDQxNzEzLCJleHAiOjQ4NDkxMDU3MTN9.fbzR_zBXCjL0ngmt3lHHLNwtJ0RPgN7ho3rHnin1TZ4&t=2024-09-22T21%3A48%3A33.864Z"
+    }
+]

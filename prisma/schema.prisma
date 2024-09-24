@@ -137,7 +137,7 @@ model Headquarter {
 model Zone {
   id            Int    @id @default(autoincrement())
   name          String
-  address       String
+  icon          String
   headquarters  Headquarter[]
   city          City @relation(fields: [cityId], references: [id])
   cityId        Int

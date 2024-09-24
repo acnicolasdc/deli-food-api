@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Wi-Fi",
+        "icon": "icon-wifi"
+    },
+    {
+        "id": 2,
+        "name": "Juegos Infantiles",
+        "icon": "icon-toy"
+    },
+    {
+        "id": 3,
+        "name": "Parqueadero",
+        "icon": "icon-parking"
+    },
+    {
+        "id": 4,
+        "name": "Aire Acondicionado",
+        "icon": "icon-conditioner"
+    },
+    {
+        "id": 5,
+        "name": "Zona VIP",
+        "icon": "icon-vip"
+    }
+]

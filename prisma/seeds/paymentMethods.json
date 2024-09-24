@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Efectivo",
+        "icon": "icon-cash"
+    },
+    {
+        "id": 2,
+        "name": "Transferencia",
+        "icon": "icon-transfer"
+    },
+    {
+        "id": 3,
+        "name": "Tarjetas credito/debito",
+        "icon": "icon-credit"
+    }
+]

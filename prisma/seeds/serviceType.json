@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Entrada",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/serviceType/st_01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvc2VydmljZVR5cGUvc3RfMDEucG5nIiwiaWF0IjoxNzI3MDQyMDc1LCJleHAiOjQ4NDkxMDYwNzV9.QUtrlnOo62TGi6j3OQcj1wWQcCcRtSvTme0oqvTsogQ&t=2024-09-22T21%3A54%3A35.859Z"
+    },
+    {
+        "id": 2,
+        "name": "Fuerte",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/serviceType/st_02.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvc2VydmljZVR5cGUvc3RfMDIucG5nIiwiaWF0IjoxNzI3MDQyMDkyLCJleHAiOjQ4NDkxMDYwOTJ9.GEtjTqGhxnbCYxYlLMQvBytsCK2rHaW6nB25YWLPf_8&t=2024-09-22T21%3A54%3A52.825Z"
+    },
+    {
+        "id": 3,
+        "name": "Postre",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/serviceType/st_03.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvc2VydmljZVR5cGUvc3RfMDMucG5nIiwiaWF0IjoxNzI3MDQyMTA3LCJleHAiOjQ4NDkxMDYxMDd9.QktG50rQIz79-z3Pg8U4vqTw6fBsQM7ls1_yfR6rNNE&t=2024-09-22T21%3A55%3A07.817Z"
+    },
+    {
+        "id": 4,
+        "name": "Bebida",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/serviceType/st_04.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvc2VydmljZVR5cGUvc3RfMDQucG5nIiwiaWF0IjoxNzI3MDQyMTI4LCJleHAiOjQ4NDkxMDYxMjh9.9EInUoVdmLJ1A1ggY-uaOKAJsCufdEBCcz7e70l6nLs&t=2024-09-22T21%3A55%3A28.303Z"
+    }
+]

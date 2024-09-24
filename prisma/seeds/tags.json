@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Delifood",
+        "icon": "icon-deli"
+    },
+    {
+        "id": 2,
+        "name": "Promos",
+        "icon": "icon-promo"
+    },
+    {
+        "id": 3,
+        "name": "Nuevos",
+        "icon": "icon-new"
+    }
+]

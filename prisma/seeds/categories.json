@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "Tardeo",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wMS5wbmciLCJpYXQiOjE3MjcwMzk5ODMsImV4cCI6NDg0OTEwMzk4M30.9Jh7ZejKQXwVwLI98epOuEX6TyTI8luPXx6T5r0jQz0&t=2024-09-22T21%3A19%3A43.226Z"
+    },
+    {
+        "id": 2,
+        "name": "Coctelear",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_02.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wMi5wbmciLCJpYXQiOjE3MjcwNDAwMjAsImV4cCI6NDg0OTEwNDAyMH0.77d74Yn-pNT2CZmKVsFGOPP0OmLCItQF0eAELSzdpmw&t=2024-09-22T21%3A20%3A20.663Z"
+    },
+    {
+        "id": 3,
+        "name": "Glamping",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_03.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wMy5wbmciLCJpYXQiOjE3MjcwNDAwOTMsImV4cCI6NDg0OTEwNDA5M30.yv7ZNIAOwBQblxKGFxEYvkaHHqnipBFv47jyBgK5t48&t=2024-09-22T21%3A21%3A33.647Z"
+    },
+    {
+        "id": 4,
+        "name": "Desayunos",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_04.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wNC5wbmciLCJpYXQiOjE3MjcwNDAxMTcsImV4cCI6NDg0OTEwNDExN30.zhUsQrqH2_OQUknKTB5P-ikuMc26DbRby0a0GzY02PA&t=2024-09-22T21%3A21%3A57.682Z"
+    },
+    {
+        "id": 5,
+        "name": "Aire Libre",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_05.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wNS5wbmciLCJpYXQiOjE3MjcwNDAxNDQsImV4cCI6NDg0OTEwNDE0NH0.Avrzm0DMS9Z2F9jGkVvFzd1Q-N70yrwdNoI8xe6aNwk&t=2024-09-22T21%3A22%3A24.410Z"
+    },
+    {
+        "id": 6,
+        "name": "Pet Friendly",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_06.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wNi5wbmciLCJpYXQiOjE3MjcwNDAxNzAsImV4cCI6NDg0OTEwNDE3MH0.ya5-gSdgirEz_k0Vg07v39zgtKiIF4LAS88t1xSCDKg&t=2024-09-22T21%3A22%3A50.754Z"
+    },
+    {
+        "id": 7,
+        "name": "Cheat Meal",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_07.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wNy5wbmciLCJpYXQiOjE3MjcwNDAyMzMsImV4cCI6NDg0OTEwNDIzM30.r4YwFsHsrIMASDKoRSr-zNt1w2qB0wD7ue6QITE_ho8&t=2024-09-22T21%3A23%3A54.052Z"
+    },
+    {
+        "id": 8,
+        "name": "Celebraciones",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_08.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wOC5wbmciLCJpYXQiOjE3MjcwNDAyNzYsImV4cCI6NDg0OTEwNDI3Nn0.6-ChxNWs7XE1YNYiR3oc1PSd8JcN2UpB_usZ9tImvzY&t=2024-09-22T21%3A24%3A36.824Z"
+    },
+    {
+        "id": 9,
+        "name": "Saludable",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_09.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18wOS5wbmciLCJpYXQiOjE3MjcwNDAzMTEsImV4cCI6NDg0OTEwNDMxMX0.B6YTdzPhg-j9zSc5WeRDo0fPVvTbL0vLbCawIOyy4_A&t=2024-09-22T21%3A25%3A11.047Z"
+    },
+    {
+        "id": 10,
+        "name": "Almuerzos",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_10.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xMC5wbmciLCJpYXQiOjE3MjcwNDAzMzEsImV4cCI6NDg0OTEwNDMzMX0.Ohi7jQIrrRMb72UYKqVewIv4Xh8gdWRzFqCpkOPnT-o&t=2024-09-22T21%3A25%3A31.324Z"
+    },
+    {
+        "id": 11,
+        "name": "Terrazas",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_11.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xMS5wbmciLCJpYXQiOjE3MjcwNDAzNTYsImV4cCI6NDg0OTEwNDM1Nn0.o-C7qE91zB1lxHm5GL3ZKqyI97r7zOcCYUyJjby9I1Q&t=2024-09-22T21%3A25%3A56.326Z"
+    },
+    {
+        "id": 12,
+        "name": "Co-Working",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_12.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xMi5wbmciLCJpYXQiOjE3MjcwNDAzODIsImV4cCI6NDg0OTEwNDM4Mn0.BxVsYgs51r1wtB6H6Cnw92pwjLzHNkrWdvFtrdfqYVo&t=2024-09-22T21%3A26%3A22.988Z"
+    },
+    {
+        "id": 13,
+        "name": "Shows",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_13.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xMy5wbmciLCJpYXQiOjE3MjcwNDA0MDUsImV4cCI6NDg0OTEwNDQwNX0.3g6K7LZPYWbuTra27Ji3I-Tr6CZDFY3-jYeUdqJffYE&t=2024-09-22T21%3A26%3A45.774Z"
+    }
+]

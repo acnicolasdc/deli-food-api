@@ -24,7 +24,6 @@ model Customer {
   updatedAt        DateTime      @default(now()) @updatedAt
   review           Review?
   amenities        Amenity[]
-  categories       Category[]
   promotions       Promotion[]
   headquarters     Headquarter[]
   openingHours     OpeningHour[]
@@ -71,11 +70,21 @@ model ServiceBudget {
   serviceTypeId  Int  @unique
 }
 
+model Headquarter {
+  id           Int    @id @default(autoincrement())
+  name         String
+  address      String
+  categories   Category[]
+  customer     Customer @relation(fields: [customerId], references: [id])
+  customerId   Int
+  zone         Zone @relation(fields: [zoneId], references: [id])
+  zoneId       Int
+}
 model Category {
   id         Int    @id @default(autoincrement())
   name       String
   icon       String
-  customers  Customer[]
+  headquarters  Headquarter[]
 }
 
 model ProductType {
@@ -122,16 +131,6 @@ model OpeningHour {
   range        String
   customer     Customer @relation(fields: [customerId], references: [id])
   customerId   Int
-}
-
-model Headquarter {
-  id           Int    @id @default(autoincrement())
-  name         String
-  address      String
-  customer     Customer @relation(fields: [customerId], references: [id])
-  customerId   Int
-  zone         Zone @relation(fields: [zoneId], references: [id])
-  zoneId       Int
 }
 
 model Zone {

@@ -1,7 +1,7 @@
-import { Category as CategoryPrisma } from '@prisma/client';
+import { PaymentMethod as PaymentMethodPrisma } from '@prisma/client';
 import { ApiProperty } from '@nestjs/swagger';
 
-export class Category implements CategoryPrisma {
+export class PaymentMethod implements PaymentMethodPrisma {
   @ApiProperty()
   id: number;
 

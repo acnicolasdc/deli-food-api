@@ -1,7 +1,7 @@
-import { Category as CategoryPrisma } from '@prisma/client';
+import { Tag as TagPrisma } from '@prisma/client';
 import { ApiProperty } from '@nestjs/swagger';
 
-export class Category implements CategoryPrisma {
+export class Tag implements TagPrisma {
   @ApiProperty()
   id: number;
 

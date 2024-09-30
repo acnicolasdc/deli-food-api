@@ -1,0 +1,339 @@
+[
+    {
+        "name": "Duquesa", 
+        "waitingTime": "De 30 a 40 Minutos",
+        "image": "",
+        "tagId": 1,
+        "categories": [8, 11,13]
+    },
+    {
+        "name": "Mantra Rooftop", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11]
+    },
+    {
+        "name": "Amasijo Cocina", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 4, 10]
+    },
+    {
+        "name": "Purist", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 9]
+    },
+    {
+        "name": "Martys Bakery", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 4, 6]
+    },
+    {
+        "name": "Martys Bakery", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 6, 14]
+    },
+    {
+        "name": "El Colibri", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 6]
+    },
+    {
+        "name": "La Herencia", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 10, 12]
+    },
+    {
+        "name": "Tardeo Valluno", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 6, 7]
+    },
+    {
+        "name": "Mr Bono", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1]
+    },
+    {
+        "name": "San Camilo", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 2, 11]
+    },
+    {
+        "name": "La Ñapa", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 2]
+    },
+    {
+        "name": "Pinselazo", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 16]
+    },
+    {
+        "name": "Elsa Cafe", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11]
+    },
+    {
+        "name": "Penelope Martini", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11]
+    },
+    {
+        "name": "La Buena Vida", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11, 15]
+    },
+    {
+        "name": "Blue Lounge", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2]
+    },
+    {
+        "name": "Florencio", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 6, 11]
+    },
+    {
+        "name": "Once Once", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11, 16]
+    },
+    {
+        "name": "Once Once", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11, 16]
+    },
+    {
+        "name": "Narcisa", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11, 13]
+    },
+    {
+        "name": "Eva Rooftop", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11, 15]
+    },
+    {
+        "name": "Boato", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 2]
+    },
+    {
+        "name": "El Gato Rooftop", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [2, 11, 15]
+    },
+    {
+        "name": "Entre Nubes", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Alta Montaña", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Attraversiamo", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Lovnic", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Colina Dorada", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Biaka", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Glamping Sevilla", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Hotel Reserva Donato", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "La Cima", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [3]
+    },
+    {
+        "name": "Tardes Caleñas", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 5, 16]
+    },
+    {
+        "name": "Muflets", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 6, 14]
+    },
+    {
+        "name": "Astromelia", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 4, 6]
+    },
+    {
+        "name": "Panaderia Montecarlo", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4]
+    },
+    {
+        "name": "Casa Banana", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 4, 14]
+    },
+    {
+        "name": "La Puerta Bakery", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 6]
+    },
+    {
+        "name": "Leva Cafe", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 4, 6]
+    },
+    {
+        "name": "Latelier", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 6, 14]
+    },
+    {
+        "name": "La Corteza", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 6, 12]
+    },
+    {
+        "name": "Toska", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 10, 12]
+    },
+    {
+        "name": "Dolce Bocato", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 12, 15]
+    },
+    {
+        "name": "Hilton Garden", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4]
+    },
+    {
+        "name": "Lupe Terraza", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 10, 11]
+    },
+    {
+        "name": "La Marianela", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [4, 6, 12]
+    },
+    {
+        "name": "Reposteria Zahavi", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 4, 6]
+    },
+    {
+        "name": "Sweet Mama", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 4, 14]
+    },
+    {
+        "name": "Bruma Dapa", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [1, 5, 6]
+    },
+    {
+        "name": "Gallo de Oro", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [5, 10, 16]
+    },
+    {
+        "name": "Macondo", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [5, 10, 16]
+    },
+    {
+        "name": "Bohio", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [8, 11, 13]
+    },
+    {
+        "name": "Cielito Lindo", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [5, 10, 16]
+    },
+    {
+        "name": "Guadalupe Cafe", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [5, 6, 16]
+    },
+    {
+        "name": "Rodizio Do Brazil", 
+        "waitingTime": "De 20 a 30 Minutos",
+        "image": "",
+        "categories": [5, 6, 13]
+    }
+]

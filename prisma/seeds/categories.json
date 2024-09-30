@@ -63,5 +63,20 @@
         "id": 13,
         "name": "Shows",
         "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_13.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xMy5wbmciLCJpYXQiOjE3MjcwNDA0MDUsImV4cCI6NDg0OTEwNDQwNX0.3g6K7LZPYWbuTra27Ji3I-Tr6CZDFY3-jYeUdqJffYE&t=2024-09-22T21%3A26%3A45.774Z"
+    },
+    {
+        "id": 14,
+        "name": "Postres",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_14.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xNC5wbmciLCJpYXQiOjE3MjcyMjUxNjgsImV4cCI6NDg0OTI4OTE2OH0.eW5w2Fb0VIQ0bvMJNK-qe437Yf4bFtRVWQD0KY3G9DM&t=2024-09-25T00%3A46%3A08.332Z"
+    },
+    {
+        "id": 15,
+        "name": "Cena",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_15.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xNS5wbmciLCJpYXQiOjE3MjcyMjUxOTcsImV4cCI6NDg0OTI4OTE5N30.cAcsjXIHcRWLK1Bqe1C1vUclehng6opZccDX4nssUAU&t=2024-09-25T00%3A46%3A38.028Z"
+    },
+    {
+        "id": 16,
+        "name": "Familiar",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/category/c_16.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY2F0ZWdvcnkvY18xNi5wbmciLCJpYXQiOjE3MjcyMjUyMjEsImV4cCI6NDg0OTI4OTIyMX0.F4ORPkdFyJR4TmsdZv2KjnGXc_ShS0O2dD34AnXJ2bM&t=2024-09-25T00%3A47%3A01.274Z"
     }
 ]

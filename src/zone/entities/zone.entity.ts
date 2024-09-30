@@ -1,7 +1,7 @@
-import { Category as CategoryPrisma } from '@prisma/client';
+import { Zone as ZonePrisma } from '@prisma/client';
 import { ApiProperty } from '@nestjs/swagger';
 
-export class Category implements CategoryPrisma {
+export class Zone implements ZonePrisma {
   @ApiProperty()
   id: number;
 
@@ -10,4 +10,7 @@ export class Category implements CategoryPrisma {
 
   @ApiProperty()
   icon: string;
+
+  @ApiProperty()
+  cityId: number;
 }

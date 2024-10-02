@@ -28,8 +28,8 @@ export class ZoneController {
 
   @Get()
   @ApiOkResponse({ type: ZoneEntity, isArray: true })
-  findAll(@Query() { cityId }: FindAllQueryParamDto) {
-    return this.zoneService.findAll(cityId);
+  findAll(@Query() { cardinalPointId }: FindAllQueryParamDto) {
+    return this.zoneService.findAll(cardinalPointId);
   }
 
   @Get(':id')

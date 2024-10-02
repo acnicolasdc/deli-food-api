@@ -9,5 +9,5 @@ export class FindAllQueryParamDto {
     const parsedValue = parseInt(value, 10);
     return isNaN(parsedValue) ? undefined : parsedValue;
   })
-  cardinalPointId?: number;
+  cityId?: number;
 }

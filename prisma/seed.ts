@@ -2,6 +2,7 @@ import { PrismaClient } from '@prisma/client';
 
 import tags from './seeds/tags.json';
 import zones from './seeds/zones.json';
+import cardinalPoints from './seeds/cardinalPoint.json';
 import amenities from './seeds/amenities.json';
 import paymentMethods from './seeds/paymentMethods.json';
 import cities from './seeds/cities.json';
@@ -82,13 +83,38 @@ async function upsertCities(dataArray: typeof cities) {
   }
 }
 
-async function upsertZones(dataArray: typeof zones, cityId: number) {
+async function upsertZones(dataArray: typeof zones) {
   for (const data of dataArray) {
     try {
       await prisma.zone.upsert({
         where: { id: data.id },
         update: data,
-        create: { ...data, cityId },
+        create: { ...data },
+      });
+      console.log('Zone fields seed data inserted successfully');
+    } catch (error) {
+      console.error('Error upserting field:', data.id, error);
+    }
+  }
+}
+
+async function upsertCardinalPoint(
+  dataArray: typeof cardinalPoints,
+  cityId: number,
+) {
+  for (const data of dataArray) {
+    try {
+      await prisma.cardinalPoint.upsert({
+        where: { id: data.id },
+        update: data,
+        create: {
+          ...data,
+          cities: {
+            connect: {
+              id: cityId,
+            },
+          },
+        },
       });
       console.log('Zone fields seed data inserted successfully');
     } catch (error) {
@@ -130,7 +156,8 @@ const prisma = new PrismaClient();
 async function main() {
   await upsertCategories(categories);
   await upsertCities(cities);
-  await upsertZones(zones, cities[0].id);
+  await upsertCardinalPoint(cardinalPoints, cities[0].id);
+  await upsertZones(zones);
   await upsertProductType(productTypes);
   await upsertServiceType(serviceTypes);
   await upsertTags(tags);

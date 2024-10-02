@@ -18,7 +18,7 @@ datasource db {
 model Customer {
   id               Int           @id @default(autoincrement())
   name             String
-  logo            String
+  logo             String
   waitingTime      String
   createdAt        DateTime      @default(now())
   updatedAt        DateTime      @default(now()) @updatedAt
@@ -26,7 +26,7 @@ model Customer {
   amenities        Amenity[]
   promotions       Promotion[]
   headquarters     Headquarter[]
-  serviceTypes     ServiceType[]
+  serviceBudgets   ServiceBudget[]
   productTypes     ProductType[]
   paymentMethods   PaymentMethod[]
   tag              Tag? @relation(fields: [tagId], references: [id])
@@ -56,15 +56,14 @@ model ServiceType {
   id                     Int    @id @default(autoincrement())
   name                   String
   icon                   String
-  customers              Customer[]
   serviceBudget          ServiceBudget?
   reviewRecomendation    ReviewRecomendation?
 }
 
 model ServiceBudget {
   id             Int    @id @default(autoincrement())
-  name           String
-  icon           String
+  count          Int
+  customers      Customer[]
   serviceType    ServiceType @relation(fields: [serviceTypeId], references: [id])
   serviceTypeId  Int  @unique
 }
@@ -135,18 +134,25 @@ model OpeningHour {
 }
 
 model Zone {
-  id            Int    @id @default(autoincrement())
-  name          String
-  icon          String
-  headquarters  Headquarter[]
-  city          City @relation(fields: [cityId], references: [id])
-  cityId        Int
+  id                     Int    @id @default(autoincrement())
+  name                   String
+  icon                   String
+  headquarters           Headquarter[]
+  cardinalPoint          CardinalPoint? @relation(fields: [cardinalPointId], references: [id])
+  cardinalPointId        Int?
 }
 
-model City {
+model CardinalPoint {
   id            Int    @id @default(autoincrement())
   name          String
   zones         Zone[]
+  cities        City[]
+}
+
+model City {
+  id             Int    @id @default(autoincrement())
+  name           String
+  cardinalPoints CardinalPoint[]
 }
 
 

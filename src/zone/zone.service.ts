@@ -11,10 +11,10 @@ export class ZoneService {
     return this.prisma.zone.create({ data: createZoneDto });
   }
 
-  findAll(cityId?: number) {
+  findAll(cardinalPointId?: number) {
     return this.prisma.zone.findMany({
       where: {
-        ...(!!cityId && { cityId }),
+        ...(!!cardinalPointId && { cardinalPointId }),
       },
     });
   }

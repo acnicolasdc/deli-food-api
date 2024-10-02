@@ -15,7 +15,7 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, document);
   app.useGlobalPipes(new ValidationPipe({ transform: true }));
   app.enableCors({
-    origin: 'http://localhost:3001', // Allow requests from frontend
+    origin: ['http://localhost:3001', 'https://deli-food-ui.vercel.app'], // Allow requests from frontend
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // If you need to send cookies or authentication
   });

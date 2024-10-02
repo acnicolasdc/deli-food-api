@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 
-export class CreateZoneDto {
+export class CreateCardinalPointDto {
   @ApiProperty()
   name: string;
 
@@ -8,5 +8,5 @@ export class CreateZoneDto {
   icon: string;
 
   @ApiProperty()
-  cardinalPointId: number;
+  cityIds?: number[];
 }

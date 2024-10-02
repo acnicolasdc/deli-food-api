@@ -12,5 +12,5 @@ export class Zone implements ZonePrisma {
   icon: string;
 
   @ApiProperty()
-  cityId: number;
+  cardinalPointId: number;
 }

@@ -11,6 +11,7 @@ import { ServiceTypeModule } from './service-type/service-type.module';
 import { TagModule } from './tag/tag.module';
 import { ZoneModule } from './zone/zone.module';
 import { CardinalPointModule } from './cardinal-point/cardinal-point.module';
+import { CustomerModule } from './customer/customer.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { CardinalPointModule } from './cardinal-point/cardinal-point.module';
     TagModule,
     ZoneModule,
     CardinalPointModule,
+    CustomerModule,
   ],
   controllers: [AppController],
   providers: [AppService],

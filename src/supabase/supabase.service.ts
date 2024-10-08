@@ -27,14 +27,8 @@ export class SupabaseService {
     file: Express.Multer.File,
     folder: string,
   ): Promise<string> {
-    const originalMimetype = file.mimetype.toLowerCase();
-    let fileBuffer = file.buffer;
-    let fileExtension = file.originalname.split('.').pop();
-
-    if (originalMimetype === 'image/heic' || fileExtension === 'heic') {
-      fileBuffer = await this.convertHeicToPng(file.buffer);
-      fileExtension = 'png';
-    }
+    const fileBuffer = file.buffer;
+    const fileExtension = file.originalname.split('.').pop();
     const uniqueFileName = `${folder}/${uuidv4()}-${file.originalname.split('.')[0]}.${fileExtension}`;
     const { error } = await this.supabase.storage
       .from(this.BUCKET_NAME)

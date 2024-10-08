@@ -82,5 +82,11 @@
         "name": "Novena",
         "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_14.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzE0LnBuZyIsImlhdCI6MTcyNzA0MzQzOCwiZXhwIjo0ODQ5MTA3NDM4fQ.OYQ5iXmEc6bJbain7E3p4HoQAG_v--R0SD7rkt3H_R4&t=2024-09-22T22%3A17%3A18.461Z",
         "cardinalPointId": 2
+    },
+    {
+        "id": 15,
+        "name": "Boulevard",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/public/images/zone/z_15.png?t=2024-10-08T14%3A52%3A24.579Z",
+        "cardinalPointId": 4
     }
 ]

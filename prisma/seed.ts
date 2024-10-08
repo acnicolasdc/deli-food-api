@@ -116,7 +116,7 @@ async function upsertCardinalPoint(
           },
         },
       });
-      console.log('Zone fields seed data inserted successfully');
+      console.log('Cardinal Pint fields seed data inserted successfully');
     } catch (error) {
       console.error('Error upserting field:', data.id, error);
     }

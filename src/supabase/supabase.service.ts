@@ -1,4 +1,4 @@
-import sharp from 'sharp';
+import Jimp from 'jimp';
 import { v4 as uuidv4 } from 'uuid';
 import { Injectable } from '@nestjs/common';
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
@@ -17,7 +17,8 @@ export class SupabaseService {
 
   private async convertHeicToPng(fileBuffer: Buffer): Promise<Buffer> {
     try {
-      return await sharp(fileBuffer).png().toBuffer();
+      const image = await Jimp.Jimp.read(fileBuffer);
+      return await image.getBuffer(Jimp.JimpMime.png);
     } catch {
       throw new Error('Error converting HEIC to PNG');
     }

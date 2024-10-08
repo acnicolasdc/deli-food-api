@@ -12,6 +12,7 @@ import { TagModule } from './tag/tag.module';
 import { ZoneModule } from './zone/zone.module';
 import { CardinalPointModule } from './cardinal-point/cardinal-point.module';
 import { CustomerModule } from './customer/customer.module';
+import { HeadquarterModule } from './headquarter/headquarter.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { CustomerModule } from './customer/customer.module';
     ZoneModule,
     CardinalPointModule,
     CustomerModule,
+    HeadquarterModule,
   ],
   controllers: [AppController],
   providers: [AppService],

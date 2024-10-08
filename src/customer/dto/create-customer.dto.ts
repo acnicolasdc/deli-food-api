@@ -54,6 +54,11 @@ export class CreateCustomerDto {
   @IsInt({ each: true })
   productTypes: number[];
 
+  @ApiProperty({ description: 'Id of Tags', example: 1 })
+  @IsOptional()
+  @IsInt()
+  tagId: number;
+
   @ApiProperty({
     description: 'Array of service budgets with their count and service type',
     type: [CreateCustomerServiceBudgetDto],

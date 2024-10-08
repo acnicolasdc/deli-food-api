@@ -28,6 +28,9 @@ export class HeadquarterService {
         categories: {
           connect: createHeadquarterDto.categories.map((id) => ({ id })),
         },
+        amenities: {
+          connect: createHeadquarterDto.amenities.map((id) => ({ id })),
+        },
       },
     });
   }
@@ -36,7 +39,11 @@ export class HeadquarterService {
     return this.prisma.headquarter.findMany({
       include: {
         categories: true,
-        customer: true,
+        customer: {
+          include: {
+            tag: true,
+          },
+        },
         openingHours: true,
         zone: true,
       },
@@ -44,7 +51,35 @@ export class HeadquarterService {
   }
 
   findOne(id: number) {
-    return this.prisma.headquarter.findUnique({ where: { id } });
+    return this.prisma.headquarter.findUnique({
+      where: { id },
+      include: {
+        categories: true,
+        amenities: true,
+        customer: {
+          include: {
+            tag: true,
+            serviceBudgets: {
+              include: {
+                serviceType: true,
+              },
+            },
+            headquarters: true,
+            paymentMethods: true,
+          },
+        },
+        openingHours: true,
+        zone: {
+          include: {
+            cardinalPoint: {
+              include: {
+                cities: true,
+              },
+            },
+          },
+        },
+      },
+    });
   }
 
   update(id: number, updateHeadquarterDto: UpdateHeadquarterDto) {

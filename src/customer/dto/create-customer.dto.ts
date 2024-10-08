@@ -33,12 +33,6 @@ export class CreateCustomerDto {
   @IsNotEmpty()
   waitingTime: string;
 
-  @ApiProperty({ description: 'List of amenities (IDs)', example: [1, 2, 3] })
-  @IsArray()
-  @IsOptional()
-  @IsInt({ each: true })
-  amenities: number[];
-
   @ApiProperty({
     description: 'List of payment methods (IDs)',
     example: [1, 2],

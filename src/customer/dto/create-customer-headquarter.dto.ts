@@ -69,4 +69,10 @@ export class CreateCustomerHeadquarterDto {
   @ValidateNested({ each: true })
   @Type(() => CreateCustomerHeadquarterOpeningHourDto)
   openingHours: CreateCustomerHeadquarterOpeningHourDto[];
+
+  @ApiProperty({ description: 'List of amenities (IDs)', example: [1, 2, 3] })
+  @IsArray()
+  @IsOptional()
+  @IsInt({ each: true })
+  amenities: number[];
 }

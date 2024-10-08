@@ -23,7 +23,6 @@ model Customer {
   createdAt        DateTime      @default(now())
   updatedAt        DateTime      @default(now()) @updatedAt
   review           Review?
-  amenities        Amenity[]
   promotions       Promotion[]
   headquarters     Headquarter[]
   serviceBudgets   ServiceBudget[]
@@ -75,6 +74,7 @@ model Headquarter {
   image        String
   categories   Category[]
   openingHours OpeningHour[]
+  amenities    Amenity[]
   customer     Customer @relation(fields: [customerId], references: [id])
   customerId   Int
   zone         Zone @relation(fields: [zoneId], references: [id])
@@ -98,7 +98,7 @@ model Amenity {
   id         Int    @id @default(autoincrement())
   name       String
   icon       String
-  customers  Customer[]
+  headquarters  Headquarter[]
 }
 
 model PaymentMethod {

@@ -19,4 +19,7 @@ export class Headquarter implements HeadquarterPrisma {
 
   @ApiProperty()
   zoneId: number;
+
+  @ApiProperty()
+  amenities: string[];
 }

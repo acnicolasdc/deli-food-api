@@ -7,7 +7,6 @@ export const ParseFormData = createParamDecorator(
     return {
       ...body,
       tagId: body.tagId ? parseInt(body.tagId) : body.tagId,
-      amenities: JSON.parse(body.amenities),
       paymentMethods: JSON.parse(body.paymentMethods),
       productTypes: JSON.parse(body.productTypes),
       headquarters: JSON.parse(body.headquarters),

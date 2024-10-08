@@ -9,7 +9,6 @@ export class CustomerService {
 
   create(createCustomerDto: CreateCustomerDto) {
     const {
-      amenities,
       headquarters,
       serviceBudgets,
       productTypes,
@@ -21,11 +20,6 @@ export class CustomerService {
       data: {
         ...restValues,
         ...(logo && { logo }),
-        ...(!!amenities.length && {
-          amenities: {
-            connect: amenities.map((id) => ({ id })),
-          },
-        }),
         ...(!!paymentMethods.length && {
           paymentMethods: {
             connect: paymentMethods.map((id) => ({ id })),
@@ -63,6 +57,11 @@ export class CustomerService {
             categories: {
               connect: headquarter.categories.map((id) => ({ id })),
             },
+            ...(!!headquarter.amenities.length && {
+              amenities: {
+                connect: headquarter.amenities.map((id) => ({ id })),
+              },
+            }),
           })),
         },
       },

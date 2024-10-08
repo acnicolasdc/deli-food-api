@@ -20,8 +20,8 @@ export class HeadquarterController {
 
   @Post()
   @ApiCreatedResponse({ type: HeadquarterEntity })
-  create(@Body() createAmenityDto: CreateHeadquarterDto) {
-    return this.headquarterService.create(createAmenityDto);
+  create(@Body() createHeadquarterDto: CreateHeadquarterDto) {
+    return this.headquarterService.create(createHeadquarterDto);
   }
 
   @Get()
@@ -40,9 +40,9 @@ export class HeadquarterController {
   @ApiOkResponse({ type: HeadquarterEntity })
   update(
     @Param('id') id: string,
-    @Body() updateAmenityDto: UpdateHeadquarterDto,
+    @Body() updateHeadquarterDto: UpdateHeadquarterDto,
   ) {
-    return this.headquarterService.update(+id, updateAmenityDto);
+    return this.headquarterService.update(+id, updateHeadquarterDto);
   }
 
   @Delete(':id')

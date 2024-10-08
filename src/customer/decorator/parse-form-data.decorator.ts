@@ -4,7 +4,6 @@ export const ParseFormData = createParamDecorator(
   (_: unknown, ctx: ExecutionContext) => {
     const request = ctx.switchToHttp().getRequest();
     const body = request.body;
-
     return {
       ...body,
       tagId: body.tagId ? parseInt(body.tagId) : body.tagId,

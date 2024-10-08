@@ -28,7 +28,6 @@ export class SupabaseService {
     folder: string,
   ): Promise<string> {
     const originalMimetype = file.mimetype.toLowerCase();
-
     let fileBuffer = file.buffer;
     let fileExtension = file.originalname.split('.').pop();
 
@@ -36,9 +35,7 @@ export class SupabaseService {
       fileBuffer = await this.convertHeicToPng(file.buffer);
       fileExtension = 'png';
     }
-
     const uniqueFileName = `${folder}/${uuidv4()}-${file.originalname.split('.')[0]}.${fileExtension}`;
-
     const { error } = await this.supabase.storage
       .from(this.BUCKET_NAME)
       .upload(uniqueFileName, fileBuffer, {

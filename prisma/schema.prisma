@@ -49,15 +49,15 @@ model ReviewRecomendation {
   review           Review @relation(fields: [reviewId], references: [id])
   reviewId         Int @unique
   serviceType      ServiceType @relation(fields: [serviceTypeId], references: [id])
-  serviceTypeId    Int @unique
+  serviceTypeId    Int
 }
 
 model ServiceType {
   id                     Int    @id @default(autoincrement())
   name                   String
   icon                   String
-  serviceBudget          ServiceBudget?
-  reviewRecomendation    ReviewRecomendation?
+  serviceBudget          ServiceBudget[]
+  reviewRecomendation    ReviewRecomendation[]
 }
 
 model ServiceBudget {
@@ -65,7 +65,7 @@ model ServiceBudget {
   count          Int
   customers      Customer[]
   serviceType    ServiceType @relation(fields: [serviceTypeId], references: [id])
-  serviceTypeId  Int  @unique
+  serviceTypeId  Int
 }
 
 model Headquarter {

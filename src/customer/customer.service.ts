@@ -40,7 +40,9 @@ export class CustomerService {
           create: serviceBudgets?.map((budget) => ({
             count: budget.count,
             serviceType: {
-              connect: { id: budget.serviceTypeId },
+              connect: {
+                id: budget.serviceTypeId,
+              },
             },
           })),
         },
@@ -76,101 +78,9 @@ export class CustomerService {
   }
 
   update(id: number, updateCustomerDto: UpdateCustomerDto) {
-    const {
-      amenities,
-      headquarters,
-      serviceBudgets,
-      productTypes,
-      paymentMethods,
-      ...restValues
-    } = updateCustomerDto;
     return this.prisma.customer.update({
       where: { id: id }, // Specify the customer to update
-      data: {
-        ...restValues,
-        ...(amenities &&
-          amenities.length > 0 && {
-            amenities: {
-              set: amenities.map((id) => ({ id })), // 'set' will replace existing amenities
-            },
-          }),
-        ...(paymentMethods &&
-          paymentMethods.length > 0 && {
-            paymentMethods: {
-              set: paymentMethods.map((id) => ({ id })), // 'set' to update payment methods
-            },
-          }),
-        ...(productTypes &&
-          productTypes.length > 0 && {
-            productTypes: {
-              set: productTypes.map((id) => ({ id })), // 'set' for product types
-            },
-          }),
-        ...(serviceBudgets &&
-          serviceBudgets.length > 0 && {
-            serviceBudgets: {
-              upsert: serviceBudgets.map((budget) => ({
-                where: { serviceTypeId: budget.serviceTypeId }, // Match the existing budget by serviceTypeId
-                update: { count: budget.count },
-                create: {
-                  count: budget.count,
-                  serviceType: {
-                    connect: { id: budget.serviceTypeId },
-                  },
-                },
-              })),
-            },
-          }),
-        ...(headquarters &&
-          headquarters.length > 0 && {
-            headquarters: {
-              upsert: headquarters.map((headquarter) => ({
-                where: { id: headquarter.id },
-                update: {
-                  name: headquarter.name,
-                  address: headquarter.address,
-                  image: headquarter.image,
-                  openingHours: {
-                    upsert: headquarter.openingHours?.map((openingHour) => ({
-                      where: { id: openingHour.id },
-                      update: {
-                        label: openingHour.label,
-                        range: openingHour.range,
-                      },
-                      create: {
-                        label: openingHour.label,
-                        range: openingHour.range,
-                      },
-                    })),
-                  },
-                  zone: {
-                    connect: { id: headquarter.zoneId },
-                  },
-                  categories: {
-                    set: headquarter.categories.map((id) => ({ id })),
-                  },
-                },
-                create: {
-                  name: headquarter.name,
-                  address: headquarter.address,
-                  image: headquarter.image,
-                  openingHours: {
-                    create: headquarter.openingHours?.map((openingHour) => ({
-                      label: openingHour.label,
-                      range: openingHour.range,
-                    })),
-                  },
-                  zone: {
-                    connect: { id: headquarter.zoneId },
-                  },
-                  categories: {
-                    connect: headquarter.categories.map((id) => ({ id })),
-                  },
-                },
-              })),
-            },
-          }),
-      },
+      data: updateCustomerDto,
     });
   }
 

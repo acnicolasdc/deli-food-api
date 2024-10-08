@@ -1,5 +1,5 @@
-import { v4 as uuidv4 } from 'uuid';
 import sharp from 'sharp';
+import { v4 as uuidv4 } from 'uuid';
 import { Injectable } from '@nestjs/common';
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 
@@ -36,7 +36,8 @@ export class SupabaseService {
       fileExtension = 'png';
     }
 
-    const uniqueFileName = `${folder}/${uuidv4()}-${file.originalname}`;
+    const uniqueFileName = `${folder}/${uuidv4()}-${file.originalname.split('.')[0]}.${fileExtension}`;
+
     const { error } = await this.supabase.storage
       .from(this.BUCKET_NAME)
       .upload(uniqueFileName, fileBuffer, {

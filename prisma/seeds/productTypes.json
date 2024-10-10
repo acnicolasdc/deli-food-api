@@ -68,5 +68,10 @@
         "id": 14,
         "name": "Arabe",
         "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/productType/pt_14.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcHJvZHVjdFR5cGUvcHRfMTQucG5nIiwiaWF0IjoxNzI3MDQxNzEzLCJleHAiOjQ4NDkxMDU3MTN9.fbzR_zBXCjL0ngmt3lHHLNwtJ0RPgN7ho3rHnin1TZ4&t=2024-09-22T21%3A48%3A33.864Z"
+    },
+    {
+        "id": 15,
+        "name": "Licores",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/public/images/productType/pt_15.png"
     }
 ]

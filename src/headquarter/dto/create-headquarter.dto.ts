@@ -45,6 +45,11 @@ export class CreateHeadquarterDto {
   @ApiPropertyOptional({ type: 'string' })
   image?: string;
 
+  @IsString()
+  @IsOptional()
+  @ApiPropertyOptional({ type: 'string' })
+  menuUrl?: string;
+
   @ApiProperty({
     description: 'Address of the headquarter',
     example: '123 Main Street',

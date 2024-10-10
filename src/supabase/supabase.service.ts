@@ -29,7 +29,7 @@ export class SupabaseService {
   ): Promise<string> {
     const fileBuffer = file.buffer;
     const fileExtension = file.originalname.split('.').pop();
-    const uniqueFileName = `${folder}/${uuidv4()}-${file.originalname.split('.')[0]}.${fileExtension}`;
+    const uniqueFileName = `${folder}/${uuidv4()}.${fileExtension}`;
     const { error } = await this.supabase.storage
       .from(this.BUCKET_NAME)
       .upload(uniqueFileName, fileBuffer, {

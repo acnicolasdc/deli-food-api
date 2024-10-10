@@ -13,6 +13,7 @@ export class HeadquarterService {
         name: createHeadquarterDto.name,
         address: createHeadquarterDto.address,
         image: createHeadquarterDto.image,
+        menuUrl: createHeadquarterDto?.menuUrl || '',
         openingHours: {
           create: createHeadquarterDto.openingHours?.map((openingHour) => ({
             label: openingHour.label,
@@ -89,6 +90,7 @@ export class HeadquarterService {
         name: updateHeadquarterDto.name,
         address: updateHeadquarterDto.address,
         image: updateHeadquarterDto.image,
+        menuUrl: updateHeadquarterDto?.menuUrl || '',
         openingHours: {
           deleteMany: {},
           create: updateHeadquarterDto.openingHours?.map((openingHour) => ({

@@ -12,6 +12,9 @@ export class Headquarter implements HeadquarterPrisma {
   address: string;
 
   @ApiProperty()
+  menuUrl: string;
+
+  @ApiProperty()
   image: string;
 
   @ApiProperty()

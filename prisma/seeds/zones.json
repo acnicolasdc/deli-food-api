@@ -3,7 +3,7 @@
         "id": 1,
         "name": "San Fernando",
         "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_01.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzAxLnBuZyIsImlhdCI6MTcyNzA0MzE1MSwiZXhwIjo0ODQ5MTA3MTUxfQ.cqvqWOrFf7s9S-2hYOgBEh-c0YFM_R8WYdZ6yQQOR7w&t=2024-09-22T22%3A12%3A31.968Z",
-        "cardinalPointId": 2
+        "cardinalPointId": 3
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "id": 4,
         "name": "Granada",
         "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/sign/images/zone/z_04.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvem9uZS96XzA0LnBuZyIsImlhdCI6MTcyNzA0MzIxNCwiZXhwIjo0ODQ5MTA3MjE0fQ.KyiQANnrJkb-4k83-CEGrektzo8Ij7a3oQ3CydHREmw&t=2024-09-22T22%3A13%3A34.295Z",
-        "cardinalPointId": 3
+        "cardinalPointId": 1
     },
     {
         "id": 5,
@@ -88,5 +88,29 @@
         "name": "Boulevard",
         "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/public/images/zone/z_15.png?t=2024-10-08T14%3A52%3A24.579Z",
         "cardinalPointId": 4
+    },
+    {
+        "id": 16,
+        "name": "Unicentro",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/public/images/zone/z_16.png",
+        "cardinalPointId": 2
+    },
+    {
+        "id": 17,
+        "name": "Jardin Plaza",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/public/images/zone/z_16.png",
+        "cardinalPointId": 2
+    },
+    {
+        "id": 18,
+        "name": "Mall Plaza",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/public/images/zone/z_16.png",
+        "cardinalPointId": 2
+    },
+    {
+        "id": 19,
+        "name": "Chipichape",
+        "icon": "https://frizjnsgjzbxknopalzq.supabase.co/storage/v1/object/public/images/zone/z_16.png",
+        "cardinalPointId": 1
     }
 ]

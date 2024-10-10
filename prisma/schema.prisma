@@ -72,6 +72,7 @@ model Headquarter {
   name         String
   address      String
   image        String
+  menuUrl      String? 
   categories   Category[]
   openingHours OpeningHour[]
   amenities    Amenity[]
